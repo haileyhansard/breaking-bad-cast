@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
 
 const Search = ({ getQuery }) => {
   const [text, setText] = useState('')
@@ -14,14 +14,14 @@ const Search = ({ getQuery }) => {
         <input
           type='text'
           className='form-control'
-          placeholder='Search characters'
+          placeholder='Search characters...'
           value={text}
           onChange={(e) => onChange(e.target.value)}
           autoFocus
         />
       </form>
     </section>
-  )
-}
+  );
+};
 
-export default Search
+export default Search;

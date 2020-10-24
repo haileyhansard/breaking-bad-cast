@@ -1,6 +1,6 @@
-import React from 'react'
-import CharacterItem from './CharacterItem'
-import Spinner from '../ui/Spinner'
+import React from 'react';
+import CharacterItem from './CharacterItem';
+import Spinner from '../ui/Spinner';
 
 const CharacterGrid = ({ items, isLoading }) => {
   return isLoading ? (
@@ -11,7 +11,7 @@ const CharacterGrid = ({ items, isLoading }) => {
         <CharacterItem key={item.char_id} item={item}></CharacterItem>
       ))}
     </section>
-  )
+  );
 };
 
 export default CharacterGrid;

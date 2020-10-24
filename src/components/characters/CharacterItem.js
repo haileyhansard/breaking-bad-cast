@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const CharacterItem = ({ item }) => {
   return (
@@ -11,7 +11,7 @@ const CharacterItem = ({ item }) => {
           <h1>{item.name}</h1>
           <ul>
             <li>
-              <strong>Actor Name:</strong> {item.portrayed}
+              <strong>Portrayed by:</strong> {item.portrayed}
             </li>
             <li>
               <strong>Nickname:</strong> {item.nickname}
@@ -29,7 +29,7 @@ const CharacterItem = ({ item }) => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default CharacterItem
+export default CharacterItem;
